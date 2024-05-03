@@ -468,7 +468,7 @@ classDiagram
 
 # Validation
 
-Validation of capabilities must be performed by an authorizer before a any new operation arriving at a peer, or any sync request, is authorized.
+Validation of capabilities must be performed by an authorizer before any new operation arriving at a peer, or any sync request, is authorized.
 
 If any of the following criteria are not met, the capability must be considered invalid:
 
