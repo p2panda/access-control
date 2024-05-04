@@ -515,7 +515,7 @@ These check can be performed against a capability store or alternatively as a pe
 
 ## Write authority
 
-Write requests are considered authorized if a valid read capability exists where the author of the operation is the `receiver` of the capability and the document being syncronised is included in it's authority scope. Only operations within the `from_timestamp` - `to_timestamp` and `from_seq` - `to_seq` range must be included.
+Write requests are considered authorized if a valid read capability exists where the author of the operation is the `receiver` of the capability and the document being syncronised is included in it's authority scope. Only operations within the `from_timestamp` to `to_timestamp` and `from_seq` to `to_seq` ranges must be included.
 
 These check can be performed against a capability store or alternatively as a performance optimisation an access-control list can be maintained based on all known (not expired or revoked) capabilities.
 
