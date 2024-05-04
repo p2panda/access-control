@@ -507,7 +507,7 @@ Valid capabilities are used to authorize two main classes of action: read and wr
 
 ## Read authority
 
-Read requests are considered authorized if a valid read capability exists where the requesting peer is the `receiver` of the capability and the document being syncronised is included in it's authority scope. Only operations within the `from_timestamp` - `to_timestamp` range must be included.
+Read requests are considered authorized if a valid read capability exists where the requesting peer is the `receiver` of the capability and the document being syncronised is included in it's authority scope. Only operations within the `from_timestamp` to `to_timestamp` range must be included.
 
 It is worth noting that operations by _all_ authors who have contributed to this document will be syncronised, not only those of the capability `issuer`.
 
